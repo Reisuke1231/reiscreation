@@ -1,0 +1,109 @@
+/*
+Theme Name: child theme
+Theme URI: http://
+Description: child theme sample
+Author: Reisuke Hashimoto
+Author URI: http://
+Version: 1.0
+Template: twentytwelve
+*/
+
+@import url('../twentytwelve/style.css');
+
+body {
+  background: #navy !important;
+}
+
+.site-header h1 a,
+.site-header h2 a {
+  color: #navy !important;
+}
+
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+  background: #333;
+}
+
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
+  color: #fff !important;
+}
+
+.main-navigation li a {
+  color: #aaa !important;
+}
+
+.main-navigation li a:hover {
+  color: #fff !important;
+}
+
+.main-navigation li {
+  margin: 0 15px !important;
+}
+
+.main-navigation li ul li {
+  margin: #666 !important;
+}
+
+.main-navigation li ul li a {
+  margin: #333 !important;
+}
+
+.main-navigation li ul li.current-menu-item > a, .main-navigation li ul li.current-menu-ancestor > a, .main-navigation li ul li.current_page_item > a, .main-navigation li ul li.current_page_ancestor > a {
+  color: #333 !important;
+}
+
+footer#colophon {
+  padding: 20px !important;
+}
+
+footer#colophon .footer-menu {
+  margin-bottom: 20px !important;
+}
+
+footer#colophon .footer-menu .menu {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+footer#colophon .footer-menu .menu3 {
+  margin-right: 0 !important;
+}
+
+footer#colophon .footer-menu .menu li.widget {
+  list-style-type: none !important;
+}
+
+footer#colophon .footer-menu .menu li.width2 {
+  font-size: 16px !important;
+}
+
+footer#colophon .site-info {
+  text-align: center !important;
+}
+
+.site-content article {
+  border-bottom: 1px solid #ddd !important;
+  margin-bottom: 30px !important;
+  padding-bottom: 30px !imporntant;
+}
+
+.site-content article header {
+  margin-bottom: 0 !important;
+  padding-bottom: 10px;
+}
+
+.site-content article .left {
+  float: left;
+  width: 25%;
+}
+
+.site-content article .entry-title {
+  float: right;
+  width: 70%;
+  clear: none !important;
+}
+
+.site-content article .entry-title a {
+  color: #000 !important;
+}
