@@ -45,6 +45,7 @@ function spacious_setup() {
 	// Registering navigation menus.
 	register_nav_menus( array(
 		'primary' 	=> 'Primary Menu',
+		'utility'	=> 'Utility Menu',
 		'footer' 	=> 'Footer Menu'
 	) );
 

@@ -561,6 +561,7 @@ h1#site-title {
 	width: 100%;
 }
 
+
 /* =SEARCH WIDGET
 ----------------------------------------------- */
 #masthead .search-wrap input.s {
@@ -621,6 +622,41 @@ li.default-menu {
 .main-navigation ul li.current_page_item a,
 .main-navigation ul li:hover > a {
 	color: #0FBE7C;
+}
+/* =UTILITY NAV
+----------------------------------------------- */
+#utility-nav {
+	padding-right: 10px;
+}
+#utility-nav li {
+	float: right;
+	position: relative;
+	padding: 0 10 0 25px;
+	font-family: 'Lato', sans-serif;
+}
+#utility-nav ul li a {
+	font-size: 80%;
+	line-height: 1;
+	padding: 15px 0px 0px 15px;
+}
+#utility-nav li.default-menu,
+li.default-menu {
+	display: none;
+}
+#utility-nav a {
+	color: #444444;
+	display: block;
+	float: left;
+}
+
+#utility-nav a:hover,
+#utility-nav ul li.current-menu-item a,
+#utility-nav ul li.current_page_ancestor a,
+#utility-nav ul li.current-menu-ancestor a,
+#utility-nav ul li.current_page_item a,
+#utility-nav ul li:hover > a {
+	color: #0FBE7C;
+	background-position: 0 -17px;
 }
 
 /* =DROP DOWN
@@ -1980,3 +2016,4 @@ a#scroll-up:hover {
    }
 	#featured-slider .entry-content, #featured-slider .slider-read-more-button { display: none; }
 }
+

@@ -7,7 +7,7 @@
  * @since Spacious 1.0
  */
 ?>
-content
+content-archive
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php do_action( 'spacious_before_post_content' ); ?>
 

@@ -68,6 +68,13 @@ wp_head();
 					</div><!-- #header-left-section -->
 					<div id="header-right-section">
 						<?php
+							wp_nav_menu(array(
+								'container' => 'nav',
+								'container_id' => 'utility-nav',
+								'theme_location' => 'utility',
+							));
+						?>
+						<?php
 						if( is_active_sidebar( 'spacious_header_sidebar' ) ) {
 						?>
 						<div id="header-right-sidebar" class="clearfix">
